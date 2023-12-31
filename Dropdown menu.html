@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>BS 4 Dropdown menu</title>
+</head>
+<body>
+    <div class="container">
+        <header id="">
+            <nav class="navbar navbar-expand-sm  bg-dark navbar-dark ">
+
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" style="width: 40px; margin-left: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyqmUUBSQVTmbsBHg1dIHVCDvRW-ZgeuDig&usqp=CAU"  alt="photo" >
+                </a>
+
+                <ul class="nav">
+                    <li class=" nav-item active">
+                        <a href="#" class=" nav-link ">BEGAIN</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#" class=" nav-link">ABIDE</a>
+                    </li>
+                
+                    <li class=" nav-item">
+                        <a href="#" class=" nav-link">CLOSE</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#" class=" nav-link">CONTRACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="head">
+            <h3>Dropdown menu</h3>
+
+            <ul class="nav nav-pills">
+                <li class=" nav-item ">
+                    <a href="#" class=" nav-link active">BEGAIN</a>
+                </li>
+                <li class=" nav-item dropdwon">
+                    <a href="#" data-toggle="dropdown" class=" nav-link dropdown-toggle"> ATTEND</a>
+                </li>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                    
+                </div>
+                <li class=" nav-item">
+                    <a href="#" class=" nav-link">ABIDE</a>
+                </li>
+                <li class=" nav-item">
+                    <a href="#" class=" nav-link">CLOSE</a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <div class="toggleable">
+            <h3>Toggleable Daynamic tabs</h3>
+            <ul class="nav nav-tabs " role="tablist" >
+
+                <li class="nav-item">
+                    <a href="#home" data-toggle="tab" class="nav-link active">home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#Menu" data-toggle="tab" class="nav-link active">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#Project" data-toggle="tab" class="nav-link">pjoect</a>
+                </li>
+
+                <div class="tab-content">
+                    <div id="home" class="container active tab-pane"> HOME 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, praesentium!</div>
+                    <div id="Menu" class="container fade tab-pane"> Menu 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nostrum.</div>
+                    <div id="Project" class="container fade tab-pane">Project 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nulla.</div>
+                
+                </div>
+                
+            </ul>
+            
+            
+        </div>
+        
+        
+        <div class="container">
+            <h2>Toggleable Tabs</h2>
+            <br>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+              </li>
+            </ul>
+          
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div id="home" class="container tab-pane active"><br>
+                <h3>HOME</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div id="menu1" class="container tab-pane fade"><br>
+                <h3>Menu 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+              <div id="menu2" class="container tab-pane fade"><br>
+                <h3>Menu 2</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+              </div>
+            </div>
+          </div>
+        <br>
+        <br>
+        <br>
+        
+        <div class="container">
+            <div class="other-section">
+                <nav class=" navbar-expand-sm">
+                    <ul class="nav nav-tabs">
+                        <li class=" nav-item ">
+                            <a data-toggle="tab" href="#div1" class=" nav-link active">BEGAIN</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a data-toggle="tab"  href="#section" class=" nav-link">ABIDE</a>
+                        </li>
+                    
+                        <li class=" nav-item">
+                            <a data-toggle="tab"  href="#footer" class=" nav-link">CLOSE</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tab-content">
+                    <div id="div1" class="tab-pane"> <p>It is a long established fact that a reader will be distracted by the readable content It is a long established fact that a reader will be distracted by the readable content </p></div>
+                    <div id="section" class="tab-pane"> <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece n unknown printer took a galley of type and scrambled it to make a type speci of classica </p></div>
+                    <div id="footer" class="tab-pane"> <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p></div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container">
+            <nav class="">
+
+            </nav>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+ <link rel="stylesheet" href="js/bootstrap.min.js">
+ <link rel="stylesheet" href="js/bootstrap.bundle.min.js">    
+</body>
+</html>
