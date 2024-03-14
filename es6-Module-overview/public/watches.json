@@ -1,0 +1,28 @@
+[
+    {
+      "brand": "Apple",
+      "model": "Apple Watch Series 7",
+      "price": "$399"
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Watch 4",
+      "price": "$249"
+    },
+    {
+      "brand": "Fitbit",
+      "model": "Fitbit Versa 3",
+      "price": "$229"
+    },
+    {
+      "brand": "Garmin",
+      "model": "Garmin Venu 2",
+      "price": "$399"
+    },
+    {
+      "brand": "Huawei",
+      "model": "Huawei Watch GT 3",
+      "price": "$299"
+    }
+  ]
+  
