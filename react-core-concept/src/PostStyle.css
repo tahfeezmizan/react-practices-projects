@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .post{
     border: 2px solid brown;
     margin: 15px;
     padding: 20px;
     border-radius: 15px;
+=======
+.post{
+    border: 2px solid brown;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+>>>>>>> 9e4d9e18500da1ade9ee68580d4d81b3dedb6b7e
 }

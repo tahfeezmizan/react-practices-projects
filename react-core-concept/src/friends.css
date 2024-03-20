@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .friendStyle {
     margin: 20px;
     padding: 20px;
     border: 2px solid tomato;
     border-radius: 15px;
+=======
+.friendStyle {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid tomato;
+    border-radius: 15px;
+>>>>>>> 9e4d9e18500da1ade9ee68580d4d81b3dedb6b7e
 }
