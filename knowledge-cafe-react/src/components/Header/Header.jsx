@@ -1,5 +1,6 @@
 
 const Header = () => {
+    const [open, setOpen] = useState([])
     return (
         <div>
             <div className="navbar bg-base-100">
