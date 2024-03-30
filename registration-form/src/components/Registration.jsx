@@ -1,9 +1,8 @@
-import React from 'react';
 
 const Registration = () => {
     return (
         <div>
-            <h1>Registration Form</h1>
+            <h1>Please Registration Here</h1>            
         </div>
     );
 };
